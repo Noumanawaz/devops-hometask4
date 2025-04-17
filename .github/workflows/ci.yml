@@ -46,3 +46,4 @@ jobs:
     - name: Build Docker image
       run: docker buildx build -t ${{ secrets.DOCKER_USERNAME }}/python-ci-app . --push
       # This builds the Docker image and pushes it to Docker Hub in one step
+
